@@ -33,5 +33,7 @@ namespace Swin_Adventure
         {
             get { return Name+"("+FirstId+")";}
         }
+
+        public Inventory Inventory { get { return _inventory; } }
     }
 }
